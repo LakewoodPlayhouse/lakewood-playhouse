@@ -1,0 +1,4 @@
+backend:
+    name: github
+    repo: LakewoodPlayhouse/lakewood-playhouse
+media_folder: "images/uploads"
