@@ -546,7 +546,7 @@ body {
 	color: #AA3636;
 	border-top: 2px solid #D89E91;
 }
-.footer{
+.sponsor{
   background-color: #75292E;
   border-style: solid;
   border-width: 40px;
@@ -554,46 +554,50 @@ body {
   position: relative;
 	height: 400px;
 }
-.footer .top{
+.sponsor .top{
   position: absolute;
   bottom: 18.4em;
   left: 50%;
   margin-left: -96px;
 }
 
-.footer .top img{
+.sponsor .top img{
   transform: rotate(180deg);
   width: 192px;
 }
 
 /*-------------------------footer footer-----------------------------------*/
-.footer_line {
-		display: block;
-		overflow: hidden;
-		white-space: nowrap;
+.footer{
+	height: 50px;
+	padding: 0 30px;
+	background-color: #aa3636;
+
 }
 
-.footer_line > span {
-		position: relative;
-		display: inline-block;
+
+.footer h2{
+	padding-top: 13px;
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #ffeac0;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+	 font-style: italic;
+	 font-size: 18pt;
+	 background-color:#aa3636;
 }
 
-.footer_line > span:before,
-.footer_line > span:after {
-		content: "";
-		position: absolute;
-		top: 50%;
-		width: 9999px;
-		height: 1px;
-		background: #FFEAC0;
+
+.footer span{
+    padding:0 10px;
+		color: #FFEAC0;
+		background-color:#aa3636;
 }
 
-.footer_line > span:before {
-		right: 100%;
-		margin-right: 15px;
-}
-
-.footer_line > span:after {
-		left: 100%;
-		margin-left: 15px;
+/*Keep footer at the bottom when there is not enough content*/
+body{
+	 display: flex;
+	 min-height: 100vh;
+	 flex-direction: column;
+	 justify-content: space-between
 }
