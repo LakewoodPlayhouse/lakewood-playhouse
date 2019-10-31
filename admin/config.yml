@@ -21,6 +21,6 @@ collections:
           - label: "hours"
             name: "hours"
             widget: "string"
-          - label: "hours_note"
+          - label: "hours note"
             name: "hours_note"
             widget: "string"

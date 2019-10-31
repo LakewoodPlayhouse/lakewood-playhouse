@@ -1,1 +1,3 @@
-tagline: This is a test
+tagline: "This is a test"
+hours: "test"
+hours_note: "test"
