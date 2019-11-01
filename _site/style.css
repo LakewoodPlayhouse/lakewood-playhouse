@@ -65,10 +65,9 @@ body {
   border-width: 40px;
   border-image: url(images/ticket_stub_border_header.svg) 40% stretch;
   position: relative;
+	height:155px;
 }
-.header{
-  height:155px;
-}
+
 .header .bottom{
   position: absolute;
   bottom: -2.733em;
@@ -82,6 +81,7 @@ body {
   color: #FFEAC0;
   font-family: arial;
 	font-size: 100%;
+	text-decoration: none;
 }
 
 @media only screen and (min-width: 800px){
@@ -295,6 +295,8 @@ body {
   position:relative;
   align-items: center;
   line-height: 1.3;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 .left img{
   transform: rotate(90deg);
@@ -378,48 +380,6 @@ body {
   }
 }
 
-/*-----------------------------Contact Header------------------------------*/
-.contact_header{
-  padding:10px 20px 10px 20px;
-  background-color: #AA3636;
-  font-size: 18pt;
-  text-align: center;
-  font-style: italic;
-  color: #FFEAC0;
-}
-
-@media only screen and (min-width: 590px){
-  .line {
-      display: block;
-      overflow: hidden;
-      white-space: nowrap;
-  }
-
-  .line > span {
-      position: relative;
-      display: inline-block;
-  }
-
-  .line > span:before,
-  .line > span:after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      width: 9999px;
-      height: 1px;
-      background: #FFEAC0;
-  }
-
-  .line > span:before {
-      right: 100%;
-      margin-right: 15px;
-  }
-
-  .line > span:after {
-      left: 100%;
-      margin-left: 15px;
-  }
-}
 
 /*----------------------------------Contact-----------------------------------*/
 
@@ -546,49 +506,53 @@ body {
 	color: #AA3636;
 	border-top: 2px solid #D89E91;
 }
-.sponsor{
+.footer{
   background-color: #75292E;
   border-style: solid;
   border-width: 40px;
   border-image: url(images/ticket_stub_border_footer.svg) 40% stretch;
   position: relative;
-	height: 400px;
+	height: 20px;
 }
-.sponsor .top{
+.footer .top{
   position: absolute;
-  bottom: 18.4em;
+  bottom: -1.6em;
   left: 50%;
   margin-left: -96px;
 }
 
-.sponsor .top img{
+.footer .top img{
   transform: rotate(180deg);
   width: 192px;
 }
 
-/*-------------------------footer footer-----------------------------------*/
-.footer{
+/* When contact is footer add padding */
+.contact_footer{
+	padding-bottom: 30px;
+}
+
+/*-------------------------headings-----------------------------------*/
+
+.heading{
 	height: 50px;
 	padding: 0 30px;
 	background-color: #aa3636;
-
 }
 
 
-.footer h2{
-	padding-top: 13px;
+.heading h2{
+	 padding-top: 25px;
    width: 100%;
    text-align: center;
    border-bottom: 1px solid #ffeac0;
-   line-height: 0.1em;
-   margin: 10px 0 20px;
+   line-height: .01em;
 	 font-style: italic;
 	 font-size: 18pt;
 	 background-color:#aa3636;
 }
 
 
-.footer span{
+.heading span{
     padding:0 10px;
 		color: #FFEAC0;
 		background-color:#aa3636;

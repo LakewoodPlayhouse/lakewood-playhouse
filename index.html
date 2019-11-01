@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 <div class="carousel carousel-main" data-flickity='{ "wrapAround": true }'>
   <div class="carousel-cell">
     <div class="poster">
@@ -269,29 +268,8 @@ layout: default
     </div>
   </div>
 </div>
-<div class="contact_header">
-  <div class="line">
-    <span>This is a test</span>
-  </div>
-</div>
-<div class="contact">
-  <div class="phone">
-    <h1>Telephone<h1>
-    <hr>
-    <h2><span>253-588-0042</span><h2>
-  </div>
-  <div class="hours">
-    <h1>Box Office Hours</h1>
-    <hr>
-    <h2>Tues - Sat: 3pm - 6pm</h2>
-    <h3>(And 2 Hours Prior to Showtimes)</h3>
-  </div>
-  <div class="email">
-    <h1>Email</h1>
-    <hr>
-    <h2>boxoffice.<br>lakewoodplayhouse<br>@gmail.com</h2>
-  </div>
-</div>
+{% include heading.html content=site.data.contact.tagline %}
+{% include contact.html %}
 <div class="anouncements">
   <div class="column">
     <div class="anouncement">
@@ -372,9 +350,5 @@ layout: default
     </div>
   </div>
 </div>
+
 <div class="more">More Anouncements</div>
-<div class="sponsor">
-  <div class="top">
-    <img src="images\ticket_stub_border_image_more.svg">
-  </div>
-</div>
