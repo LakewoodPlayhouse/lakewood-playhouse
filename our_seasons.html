@@ -6,7 +6,7 @@ layout: default
   {% for show in site.shows %}
     <div class="carousel-cell">
       <div class="poster">
-        <img src="images/1.png">
+        <img src={{show.thumb}}>
       </div>
     </div>
   {% endfor %}
@@ -19,21 +19,21 @@ layout: default
     <div class="carousel-cell">
       <div class="ticket">
         <div class="left">
-          <img src="images/ticket_stub_border_image.svg"/>
+          <img src="{{baseurl}}/images/ticket_stub_border_image.svg"/>
         </div>
         <div class="content">
           <div class="credits">
             {{show.credits}}
           </div>
-          <div class="reserve_tickets">
-            Reserve Tickets
-          </div>
+          <a href={{show.url}}>
+            <div class="reserve_tickets">Reserve Tickets</div>
+          </a>
           <div class="date">
             {{show.time}}
           </div>
         </div>
         <div class="right">
-          <img src="images/ticket_stub_border_image.svg"/>
+          <img src="{{baseurl}}/images/ticket_stub_border_image.svg"/>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
 baseurl: /LWPH
 collections:
-    - shows
+  shows:
+    output: true
