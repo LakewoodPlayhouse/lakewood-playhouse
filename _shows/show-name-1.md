@@ -1,5 +1,5 @@
 ---
-name: Wait until dark
+name: Wait Until Dark
 layout: show
 credits: By Joe Bro
 poster: /images/uploads/show-name-1.png
