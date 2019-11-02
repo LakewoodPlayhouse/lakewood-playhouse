@@ -1,6 +1,6 @@
 ---
 layout: show
-name: show-name-3
+name: Peter And The Star Catcher
 credits: "Some Person"
 time: "October 1st, 2019"
 thumb: "/images/uploads/show-name-3-thumb.png"

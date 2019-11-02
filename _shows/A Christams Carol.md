@@ -1,6 +1,6 @@
 ---
 layout: show
-name: show-name-2
+name: A Christmas Carol
 credits: "The Dude"
 time: "December 5th, 2019"
 thumb: "/images/uploads/show-name-2-thumb.png"
