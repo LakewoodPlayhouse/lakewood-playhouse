@@ -28,8 +28,11 @@ collections:
     name: "shows"
     folder: "_shows"
     create: true
-    slug: "{{slug}}"
+    identifier_field: name
     fields:
+     - label: "Name"
+       name: "name"
+       widget: "string"
      - label: "Layout"
        name: "layout"
        widget: "hidden"

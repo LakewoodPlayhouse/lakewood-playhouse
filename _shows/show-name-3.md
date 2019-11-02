@@ -1,5 +1,6 @@
 ---
 layout: show
+name: show-name-3
 credits: "Some Person"
 time: "October 1st, 2019"
 thumb: "/images/uploads/show-name-3-thumb.png"

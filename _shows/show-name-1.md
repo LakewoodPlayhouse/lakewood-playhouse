@@ -1,5 +1,6 @@
 ---
 layout: show
+name: show-name-1 
 credits: "By Joe Bro"
 time: "November 1st, 2019"
 thumb: "/images/uploads/show-name-1-thumb.png"

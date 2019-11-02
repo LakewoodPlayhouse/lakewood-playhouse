@@ -1,5 +1,6 @@
 ---
 layout: show
+name: show-name-2
 credits: "The Dude"
 time: "December 5th, 2019"
 thumb: "/images/uploads/show-name-2-thumb.png"
