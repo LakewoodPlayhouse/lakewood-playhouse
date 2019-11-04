@@ -1,7 +1,7 @@
 ---
 name: Wait Until Dark
 layout: show
-credits: By Joe Bro
+credits: By Winslow Barger
 poster: /images/uploads/show-name-1.png
 time: 'November 1st, 2019'
 thumb: /images/uploads/show-name-1-thumb.png
